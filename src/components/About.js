@@ -14,7 +14,7 @@ const About = () => {
       <div className="about-content">
           <h2>About Me</h2>
           <p>
-            I’m a passionate fullstack developer focused on ...
+            I’m a fullstack developer that creates projects with a focus on creating responsive, and user-friendly websites. I have a strong passion for technology and enjoy using my skills to build innovative and high-quality web applications.
           </p>
           <Skills /> 
         </div>

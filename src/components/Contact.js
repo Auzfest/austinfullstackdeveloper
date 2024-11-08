@@ -67,7 +67,7 @@ const Contact = () => {
       <div className="social-links">
         <a href="https://www.linkedin.com/in/austin-barnes-iv" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <a href="https://github.com/Auzfest" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="mailto:barnesfamilyaustin@gmail.com">Email Me</a>
+        <a href="mailto:barnesfamilyaustin@gmail.com">Email</a>
       </div>
     </section>
   );

@@ -4,8 +4,7 @@ const Footer = () => {
     return (
         <footer>
         <p>&copy; 2024 - Austin Barnes</p>
-        <p><a href="index.html" class="footer-link">Home</a></p>
-        <p><a href="contact.html" class="footer-link">Contact</a></p>
+        <p><a href="#home" class="footer-link">Home</a></p>
       </footer>
     );
 }

@@ -24,31 +24,68 @@ body {
 .hero {
   text-align: center;
   width: 100%;
-  height: 100vh;
+  height: 95vh;
   background-color: var(--dark-navy);
   color: var(--light-grey);
 }
 
 
 .hero-title-container {
-  position: relative;
+  margin-top: 5rem;
   z-index: 1;
-    top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(40px);
+  animation: fadeInUp 1s ease-out forwards;
   padding: 10px;
 }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .hero-title {
   font-size: 6rem;
   color: var(--bright-red);
   margin-bottom: 0.1rem;
   font-weight: 700;
+  animation: pulsate 2s ease-in-out infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.01);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .hero-subtitle {
   font-size: 3rem;
   color: var(--deep-red);
   margin-bottom: 1.5rem;
+  animation: reds 2s ease-in-out infinite;
+}
+
+@keyframes reds {
+  0% {
+    color: var(--bright-red);
+  }
+  50% {
+    color: var(--deep-red);
+  }
+  100% {
+    color: var(--bright-red);
+  }
 }
 
 .hero-description {
@@ -62,7 +99,7 @@ body {
 .about {
   background-color: var(--light-grey);
   padding: 4rem 1.5rem;
-  margin-top: 20rem;
+  margin-top: 6rem;
   display: flex;
   justify-content: center;
 }
@@ -167,7 +204,7 @@ body {
 /* Project List */
 
 .project-list-container {
-  margin-top: 15rem;
+  margin-top: 8rem;
   text-align: center;
 }
 
@@ -341,7 +378,8 @@ footer {
 }
 
 footer a {
-  color: var(--bright-red);
+  color: var(--light-grey);
+  font-size: 1rem;
   text-decoration: none;
   margin: 0 0.5rem;
   transition: color 0.3s ease;
@@ -409,6 +447,10 @@ html {
 
   .skills-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .skills h4 {
+    margin: 2rem;
   }
 
   .about,

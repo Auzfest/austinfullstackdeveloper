@@ -20,7 +20,7 @@ const projects = [
     title: 'Streak Snap',
     description: 'A website to track different daily streaks. (In Progress)',
     links: [
-      { text: 'Streak Snap Repository', url: 'https://github.com/sofiagalkina/streaksnap' },
+      { text: 'Streak Snap', url: 'https://streaksnap.vercel.app/' },
     ],
   },
   {

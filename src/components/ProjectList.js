@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard';
 const projects = [
   {
     title: 'DreamBox',
-    description: 'A website for a local selfie studio in Rexburg, Idaho. (In Progress)',
+    description: 'A society project, building a website for a local selfie studio in Rexburg, Idaho. (In Progress)',
     links: [
       { text: 'DreamBox Current Site', url: 'https://www.dreamboxrexburg.com/' },
     ],
@@ -18,14 +18,14 @@ const projects = [
   },
   {
     title: 'Streak Snap',
-    description: 'A website to track different daily streaks. (In Progress)',
+    description: 'A team project to create a fun website to track different daily streaks. (In Progress)',
     links: [
       { text: 'Streak Snap', url: 'https://streaksnap.vercel.app/' },
     ],
   },
   {
     title: 'Fake E-commerce',
-    description: 'A project for a fake e-commerce store.',
+    description: 'A personal project for a fake e-commerce store.',
     links: [
       { text: 'Fake E-commerce Repository', url: 'https://github.com/Auzfest/EcommProject' },
     ],

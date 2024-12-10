@@ -29,6 +29,14 @@ body {
   color: var(--light-grey);
 }
 
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  animation: fadeInUp 1s ease-out forwards;
+}
+
 
 .hero-title-container {
   margin-top: 5rem;

@@ -11,16 +11,23 @@ const projects = [
   },
   {
     title: 'Soccer Stats Site',
-    description: 'A website for soccer fans to keep up with the latest stats and scores. (In Progress)',
+    description: 'A website for soccer fans to keep up with the latest stats and scores.',
     links: [
-      { text: 'Rough Draft Site', url: 'https://auzfest.github.io/soccerWeb/' },
+      { text: 'Soccer Pulse', url: 'https://auzfest.github.io/soccerWeb/' },
     ],
   },
   {
     title: 'Streak Snap',
-    description: 'A team project to create a fun website to track different daily streaks. (In Progress)',
+    description: 'A team project to create a fun website to track different daily streaks.',
     links: [
       { text: 'Streak Snap', url: 'https://streaksnap.vercel.app/' },
+    ],
+  },
+  {
+    title: 'ARG Site',
+    description: 'A site telling a story through cryptic puzzles and a "chatbot". (In Progress)',
+    links: [
+      // { text: 'ARG', url: 'https://streaksnap.vercel.app/' },
     ],
   },
   {
